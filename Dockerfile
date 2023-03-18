@@ -5,3 +5,4 @@ RUN curl -fsSl https://raw.githubusercontent.com/choral-lang/choral/master/scrip
 RUN bash install.sh -y
 RUN rm install.sh
 RUN microdnf clean all
+ENV CHORAL_HOME=/usr/local/lib/choral
